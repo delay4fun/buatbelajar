@@ -49,7 +49,7 @@
 
 import math
 
-val = 3
+val = 3.14
 
 sqrtVal = math.sqrt(val)
 print(sqrtVal)
@@ -57,3 +57,15 @@ print(sqrtVal)
 expVal = math.exp(val)
 print(expVal)
 
+## val is float
+# factVal = math.factorial(val)
+# print(factVal)
+
+sinVal = math.sin(val)
+print(sinVal)
+
+floorVal = math.floor(val)
+print(floorVal)
+
+ceilVal = math.ceil(val)
+print(ceilVal)
