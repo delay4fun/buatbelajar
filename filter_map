@@ -1,0 +1,35 @@
+number = [1, 100, 32, 51 ,55 ,2 ,88, 3, 66]
+def func(x):
+  if x > 50:
+    return True
+  else:
+    return False
+
+result = filter(func, number)
+for i in result:
+  print(i)
+
+print("="*20)
+
+def funx(z):
+  if z < 50:
+    return True
+  else:
+    return False
+
+resultx = filter(funx, number)
+for j in resultx:
+  print(j)
+
+odd = filter(lambda x: x % 2 != 0, number)
+print("Odd numers : ", tuple(odd))
+
+even = filter(lambda x: x % 2 == 0, number)
+print("Even numbers : ", tuple(even))
+print("="*20)
+set1 = {'hello', 'bye', 'greetings'}
+# print(set1)
+map_iter = map(lambda x: x.upper(), set1)
+for o in map_iter:
+  print(o)
+  
